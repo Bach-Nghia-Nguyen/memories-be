@@ -17,7 +17,7 @@ app.use("/posts", postRoutes);
 app.use("/users", userRoutes);
 
 app.get("/", (req, res) => {
-  res.send("APP IS RUNNING");
+  res.send("APP IS RUNNING 2");
 });
 
 const PORT = process.env.PORT || 5000;
